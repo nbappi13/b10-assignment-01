@@ -76,7 +76,7 @@ opacity: 0.8;
 position: static;
 width: 998px;
 height: 136px;
-
+/* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -84,10 +84,10 @@ align-items: center;
 padding: 0px;
 
 
-
+/* Inside Auto Layout */
 flex: none;
-order: 0px;
-flex-grow: 0px;
+order: 0;
+flex-grow: 0;
 margin: 24px 0px;
 
 color: rgb(13, 19, 33);
@@ -113,7 +113,7 @@ justify-content: flex-start;
 align-items: center;
 padding: 0px;
 
-
+/* Inside Auto Layout */
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -154,7 +154,7 @@ margin-bottom: 32px;
 position: static;
 width: 208px;
 height: 66px;
-
+/* Auto layout */
 /* display: flex; */
 flex-direction: row;
 justify-content: center;
@@ -162,7 +162,7 @@ align-items: center;
 padding: 21px 24px 21px 24px;
 
 
-
+/* Inside Auto Layout */
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -214,7 +214,7 @@ background: rgb(13, 19, 33);
 }
 
 .card img {
-    
+    /* Group */
 /* position: absolute; */
 /* width: 259.56px; */
 /* height: 217.01px; */
@@ -229,7 +229,7 @@ margin-left: 99px;
 }
 
 .card h3 {
-    
+    /* I will Do Coding and Change The World */
     margin-top: 10ox;
     margin-bottom: 16px;
     margin-right: 87px;
@@ -237,7 +237,7 @@ margin-left: 99px;
 position: static;
 width: 390px;
 height: 72px;
-
+/* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -245,7 +245,7 @@ align-items: flex-start;
 padding: 0px;
 
 
-
+/* Inside Auto Layout */
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -270,12 +270,12 @@ rgba(13, 19, 33, 0.7);
 }
 
 .card p {
-
+/* Lorem Ipsum is simply dummy text of the printing and typesetting industry. */
 margin-right: 9px;
 position: static;
 width: 468px;
 height: 52px;
-
+/* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -283,7 +283,7 @@ align-items: flex-start;
 padding: 0px;
 
 
-
+/* Inside Auto Layout */
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -308,11 +308,11 @@ Align: left;
 }
 
 .card button {
-
+    
 position: static;
 width: 150px;
 height: 48px;
-
+/* Auto layout */
 display: flex;
 flex-direction: row;
 justify-content: center;
