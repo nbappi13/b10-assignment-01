@@ -76,7 +76,7 @@ opacity: 0.8;
 position: static;
 width: 998px;
 height: 136px;
-/* Auto layout */
+
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -84,10 +84,10 @@ align-items: center;
 padding: 0px;
 
 
-/* Inside Auto Layout */
+
 flex: none;
-order: 0;
-flex-grow: 0;
+order: 0px;
+flex-grow: 0px;
 margin: 24px 0px;
 
 color: rgb(13, 19, 33);
@@ -113,7 +113,7 @@ justify-content: flex-start;
 align-items: center;
 padding: 0px;
 
-/* Inside Auto Layout */
+
 flex: none;
 order: 1;
 flex-grow: 0;
