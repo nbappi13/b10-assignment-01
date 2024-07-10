@@ -5,3 +5,337 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#p-name{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 1176px;
+    margin-bottom: 47px;
+}
+#b-name{
+position: absolute;
+width: 228px;
+height: 58px;
+left: 1046px;
+top: 38px;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 17px 24px 17px 24px;
+
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 8px;
+
+opacity: 0.8;
+ 
+}
+
+#hero {
+    height: 625px;
+    background-image: url('/assets/Hero-bg.png');
+    background-size: cover;
+    /* background-position: center; */
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 131px;
+    margin-bottom: 0px;
+}
+
+#hero .container {
+    margin-top: 26px;
+    margin-right: 221px;
+    margin-bottom: 44px;
+    margin-left: 221px;
+    background-position: center;
+
+}
+
+#hero .container h2 {
+    font-weight: 800px;
+    font-size: 48px;
+    height: 68px;
+    letter-spacing: 0%;
+    align-items: center;
+
+    /* "In the near future, I hope to become a Developer." */
+position: static;
+width: 998px;
+height: 136px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+
+color: rgb(13, 19, 33);
+
+font-size: 35px;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+
+rgb(13, 19, 33)
+
+}
+
+#hero .container p {
+    position: static;
+width: 852px;
+height: 52px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 24px 0px;
+
+opacity: 0.7;
+
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+
+
+Font weight: 400px;
+Font size: 16px;
+height: 26px;
+spacing: 0%;
+Align: center;
+
+margin-top: 24px;
+margin-left: 73px;
+margin-right: 73px;
+margin-bottom: 32px;
+
+}
+
+#hero .container button{
+    margin-left: 395px;
+    margin-right: 395px;
+    margin-bottom: 44px;
+    margin-top: 24px;
+    background-position: center;
+
+   /* Frame 2 */
+position: static;
+width: 208px;
+height: 66px;
+/* Auto layout */
+/* display: flex; */
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 24px 21px 24px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+
+border-radius: 8px;
+
+background: rgb(13, 19, 33);
+}
+ 
+#web-development{
+    max-width: 1440px;
+    margin: 74px 152px 88px 148px;
+    padding: 80px 97px;
+
+    box-shadow: border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.02);
+    
+
+    }
+
+#web-development .cards {
+    margin: 48px;
+    
+    position: static;
+    width: 946px;
+    height: 1072px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0px;
+    margin: 48px 0px;
+}
+
+.card {
+    margin-right: 297px;
+    margin-right: 293px;
+    
+}
+
+.card img {
+    /* Group */
+/* position: absolute; */
+/* width: 259.56px; */
+/* height: 217.01px; */
+/* left: 0.36%; */
+/* right: -0.36%; */
+/* top: 1.74%; */
+/* bottom: -1.74%; */
+margin-top: 3.77px;
+margin-right: 13.66px;
+margin-bottom: 19.22px;
+margin-left: 99px;
+}
+
+.card h3 {
+    /* I will Do Coding and Change The World */
+    margin-top: 10ox;
+    margin-bottom: 16px;
+    margin-right: 87px;
+    border: 48px;
+position: static;
+width: 390px;
+height: 72px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 16px 0px;
+
+color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+
+Font: Azeret Mono;
+Font weight: 700px;
+size: 24px;
+height: 36px;
+pacing: 0%;
+Align: left;
+
+rgba(13, 19, 33, 0.7);
+}
+
+.card p {
+/* Lorem Ipsum is simply dummy text of the printing and typesetting industry. */
+margin-right: 9px;
+position: static;
+width: 468px;
+height: 52px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 16px 0px;
+
+opacity: 0.7;
+
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+
+Font: Azeret Mono;
+weight: 400px;
+Font size: 16px;
+height: 26px;
+spacing: 0%;
+Align: left;
+}
+
+.card button {
+    /* Frame 7 */
+position: static;
+width: 150px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px 12px 20px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+1px	Inside
+rgb(13, 19, 33)
+}
+
+.card button:hover {
+    background-color: #0056b3;
+}
+
+
+
