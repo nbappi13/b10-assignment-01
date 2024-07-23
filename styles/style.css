@@ -86,15 +86,19 @@ body {
 }
 
 .hero-text-btn p {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
-    font-size: 17px;
-    opacity: 0.6;
-    text-align: center;
-    margin-left: -300px;
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    margin-left: -330px;
     margin-right: 200px;
-    padding-left: 50px;
     padding-top: 20px;
+    text-align: center;
+ 
 }
 .hero-text-btn button {
     margin-top: 20px;
