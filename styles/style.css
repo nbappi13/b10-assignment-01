@@ -30,15 +30,16 @@ body {
 #navbar h3 {
     padding-left: 180px;
     padding-top: 30px;
-    font-size: x-large;
+    font-size: 28px;
+    font-weight: 800;
+    font-family: Azeret Mono;
     font-weight: 400px;
 }
 
 #navbar button a {
 
     text-decoration: none;
-    color: black;
-    font-weight: bold;
+    color: rgb(13, 19, 33);
     background-color: 1px solid rgb(13, 19, 33);
     
 }
@@ -47,7 +48,8 @@ body {
     margin-right: 100px;
     margin-top: 20px;
     padding: 10px;
-    font-size: larger;
+    font-size: 20px;
+    font-weight: 600;
     border-radius: 5px; 
     
 }
@@ -410,7 +412,7 @@ body {
     padding-left: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: rgb(255, 243, 245);
+    background-color: rgba(255, 76, 30, 0.05);
     margin-right: 2%;
     border-radius: 10px;
 }
@@ -419,13 +421,13 @@ body {
 .trgt-card-1 > h3 {
     font-size: 20px;
     font-weight: bolder;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Azeret Mono;
     margin-top: 20px;
 }
 
 .trgt-card-1 > p {
-    font-family:'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-family: Azeret Mono;
+    font-size: 16px;
     font-weight: bold;
     opacity: 0.7;
     margin-top: 20px;
@@ -442,22 +444,21 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
     margin-right: 0px;
-    background-color: rgb(255, 243, 245);
+    background-color:  rgba(0, 76, 232, 0.05);
     margin-right: 2%;
     border-radius: 10px;
-    background-color: rgb(240, 252, 252);
 }
 
 .trgt-card-2 > h3 {
     font-size: 20px;
     font-weight: bolder;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Azeret Mono;
     margin-top: 20px;
 }
 
 .trgt-card-2 > p {
-    font-family:'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-family: Azeret Mono;
+    font-size: 16px;
     font-weight: bold;
     opacity: 0.7;
     margin-top: 20px;
@@ -475,23 +476,21 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
     margin-right: 0px;
-    background-color: rgb(255, 243, 245);
-    /* margin-right: 5%; */
     border-radius: 10px;
-    background-color: rgb(255, 251, 240);
+    background-color: rgba(255, 223, 0, 0.05);
     
 }
 
 .trgt-card-3 > h3 {
     font-size: 20px;
     font-weight: bolder;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Azeret Mono;
     margin-top: 20px;
 }
 
 .trgt-card-3 > p {
-    font-family:'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-family: Azeret Mono;
+    font-size: 16px;
     font-weight: bold;
     opacity: 0.7;
     margin-top: 20px;
@@ -512,7 +511,7 @@ body {
     margin-top: 100px;
     text-align: center;
     text-align: center;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding-top: 40px;
     margin-left:70px;
     margin-right:70px;
@@ -520,21 +519,21 @@ body {
 }
 
 .my-nxt-container > h2 {
-    font-size: 40px; 
-    font-weight: bolder;
+    font-size: 32px; 
+    font-weight:800;
     padding-left: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Azeret Mono;
 }
 
 
 .my-nxt-container > p {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
+    font-family: Azeret Mono;
+    font-weight: 400;
     padding-top: 15px;
     padding-left: 120px;
     padding-right: 120px;
     opacity: 0.6;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 
@@ -555,8 +554,9 @@ body {
 }
 
 .nxt-card-1-right h3 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px; 
+    font-family: Azeret Mono;
+    font-weight: 800;
+    font-size: 24px; 
     margin-top: -15px;
     margin-right: 80px;
     padding-right: 100px;
@@ -571,11 +571,11 @@ body {
     padding-right: 170px;
     margin-left: 20px;
     text-align:left;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: 400;
     opacity: 0.5;
     line-height: 30px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Azeret Mono;
 }
 
 .nxt-card-1-right .clr {
@@ -586,7 +586,7 @@ body {
     font-size: 18px;
     font-weight: bold;
     line-height: 30px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Azeret Mono;
 }
 
 .nxt-card-2 {
@@ -601,8 +601,9 @@ body {
 }
 
 .nxt-card-2-right h3 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px; 
+    font-family: Azeret Mono;
+    font-size: 24px; 
+    font-weight: 800;
     margin-top: -15px;
     margin-right: 80px;
     padding-right: 100px;
@@ -616,11 +617,11 @@ body {
     padding-right: 170px;
     margin-left: 20px;
     text-align:left;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: 400;
     opacity: 0.5;
     line-height: 30px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Azeret Mono;
 }
 
 .nxt-card-2-right .clr {
@@ -631,7 +632,7 @@ body {
     font-size: 18px;
     font-weight: bold;
     line-height: 30px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Azeret Mono;
 
 }
 
@@ -647,8 +648,9 @@ body {
 }
 
 .nxt-card-3-right h3 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px; 
+    font-family: Azeret Mono;
+    font-size: 24px; 
+    font-weight: 800;
     margin-top: -15px;
     margin-right: 80px;
     padding-right: 100px;
@@ -663,11 +665,11 @@ body {
     padding-right: 170px;
     margin-left: 20px;
     text-align:left;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: 400;
     opacity: 0.5;
     line-height: 30px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Azeret Mono;
 }
 
 .nxt-card-3-right .clr {
@@ -678,7 +680,7 @@ body {
     font-size: 18px;
     font-weight: bold;
     line-height: 30px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Azeret Mono;
 
 }
 
@@ -693,6 +695,7 @@ body {
 
 .sprt-container > img {
     border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
     
 }
 
@@ -703,10 +706,10 @@ body {
 }
 
 .sprt-inside-cntr > h2  {
-    font-size: 40px; 
-    font-weight: bolder;
+    font-size: 32px; 
+    font-weight: 700;
     padding-left: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Azeret Mono;
      color: white;
      margin-right: 140px;
 }
@@ -714,10 +717,10 @@ body {
 
 .sprt-inside-cntr > p {
     margin-top:2px;
-    font-size: large;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    color: white;
+    font-size: 16px;
+    font-family: Azeret Mono;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
     justify-content: center;
     margin-left: 100px;
     margin-right: 100px;
@@ -752,7 +755,7 @@ body {
 
 .ftr-nav {
     margin-top: 170px;
-    background-color:whitesmoke;
+    background-color: rgba(13, 19, 33, 0.03);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -761,11 +764,11 @@ body {
 }
 
 .ftr-nav > p {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
-    font-size: 22px;
+    font-family: Azeret Mono;
+    font-weight: 400;
+    font-size: 18px;
     margin-left: 150px;
-    opacity: 9;
+
 }
 
 .ftr-nav > ul {
